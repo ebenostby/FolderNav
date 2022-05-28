@@ -1,2 +1,29 @@
 # FolderNav
  folder navigation that can be hot-keyed for Lightroom
+ 
+ This lightroom classic plugin creates 4 commands in the Library menu: 
+ 	Folder Up, Folder Down, Folder Parent, Folder Child.
+ Since they're menu items they can be hot-keyed. On the mac, you'd do that using:
+ System Preferences/Keyboard/Shortcuts/App Shortcuts. Note that when entering the 
+ menu item text (eg, "Folder Up") that it must be preceded by three spaces.
+ 
+ I have chosen the following shortcuts:
+ 	Folder Up 		^⌘↑ (command-control up-arrow)
+ 	Folder Down 	^⌘↓ (command-control down-arrow)
+ 	Folder Parent	^⌘← (command-control left-arrow)
+ 	Folder Child	^⌘→ (command-control right-arrow)
+
+There are some limitations - when you Folder Up past the first folder, the command takes you
+to the parent folder if it can.  None of these can take you to the top-level folders in your 
+hierarchy. They seem to stop one level shy of the top.  Maybe someone else wants to figure out why.
+
+They're slow because they grab all the state they need (the names of all the nearby folders)
+every time you invoke them. But at keyboard speeds it doesn't seem to matter. 
+
+To install them, grab the lrplugin directory and everything inside it, move/copy it somewhere,
+and use the Plug-in manager to open/install it in Lightroom.
+
+I'm not a lua programmer. If you want to correct my lua, go ahead. Let me know what you did
+and why. Same for any other changes or improvements.
+
+

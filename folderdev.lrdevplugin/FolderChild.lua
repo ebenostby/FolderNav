@@ -1,4 +1,7 @@
-
+---
+--- Move to the child of the current folder in Lightroom Classic
+--- Eben Ostby
+---
 function goToChild()	
 --- 
 	local LrApplication = import 'LrApplication'

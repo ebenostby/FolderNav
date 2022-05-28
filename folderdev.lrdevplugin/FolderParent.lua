@@ -1,4 +1,7 @@
-
+---
+--- Move to the parent of the current folder in Lightroom Classic
+--- Eben Ostby
+---
 function goToParent()	
 --- 
 	local LrApplication = import 'LrApplication'
