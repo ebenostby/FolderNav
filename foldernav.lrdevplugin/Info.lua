@@ -37,9 +37,14 @@ return {
 		{
 			title = "Folder Parent",
 			file = "FolderParent.lua"
+		},
+		{
+			title = "Folder Self",
+			file = "FolderSelf.lua"
 		}
+
 	},
-	VERSION = { major=1, minor=2, revision=0,  },
+	VERSION = { major=1, minor=3, revision=0,  },
 
 }
 
