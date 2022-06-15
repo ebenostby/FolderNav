@@ -12,6 +12,10 @@
  	Folder Down 	^⌘↓ (command-control down-arrow)
  	Folder Parent	^⌘← (command-control left-arrow)
  	Folder Child	^⌘→ (command-control right-arrow)
+  Folder Self ^⌘. (command-control dot)
+
+If you haven't selected a folder, these functions infer your folder from the first (target) photo you've got selected.
+Thus if you do "Folder Self" you can determine the folder your current image is in, essentially duplicating the "show in lightroom" button for that file.
 
 There are some limitations - when you Folder Up past the first folder, the command takes you
 to the parent folder if it can.  None of these can take you to the top-level folders in your 
