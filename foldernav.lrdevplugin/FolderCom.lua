@@ -60,6 +60,7 @@ function FolderCom.goUpOrDown(sortfunction)
 			table.insert(kidnames, {kid:getName(), kid})
 		end
 		table.sort(kidnames, sortfunction)
+		lastKid = kidnames[#kidnames][2]
 		for i, kid in ipairs(kidnames) do
 		-- if we find ourself in that list, then take the prior sibling in sort order
 			if (kid[1] == myname) then					
