@@ -1,18 +1,19 @@
 # FolderNav
  folder navigation that can be hot-keyed for Lightroom
  
- This lightroom classic plugin creates 4 commands in the Library menu: 
- 	Folder Up, Folder Down, Folder Parent, Folder Child.
+ This lightroom classic plugin creates 5 commands in the Library menu: 
+ 	Folder Up, Folder Down, Folder Parent, Folder Child, Folder Self.
  Since they're menu items they can be hot-keyed. On the mac, you'd do that using:
  System Preferences/Keyboard/Shortcuts/App Shortcuts. Note that when entering the 
- menu item text (eg, "Folder Up") that it must be preceded by three spaces.
+ menu item text (eg, "Folder Up") that it must be preceded by three spaces. 
+ That's a mac-ism due to the way LRC handles these menu items.
  
  I have chosen the following shortcuts:
  	Folder Up 		^⌘↑ (command-control up-arrow)
  	Folder Down 	^⌘↓ (command-control down-arrow)
  	Folder Parent	^⌘← (command-control left-arrow)
  	Folder Child	^⌘→ (command-control right-arrow)
-  Folder Self ^⌘. (command-control dot)
+  	Folder Self 	^⌘. (command-control dot)
 
 If you haven't selected a folder, these functions infer your folder from the first (target) photo you've got selected.
 Thus if you do "Folder Self" you can determine the folder your current image is in, essentially duplicating the "show in lightroom" button for that file.
