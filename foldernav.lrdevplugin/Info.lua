@@ -41,6 +41,10 @@ return {
 		{
 			title = "Folder Self",
 			file = "FolderSelf.lua"
+		},
+		{
+			title = "Folder All",
+			file = "FolderAll.lua"
 		}
 
 	},
